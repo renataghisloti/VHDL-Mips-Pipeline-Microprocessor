@@ -1,0 +1,6 @@
+rm *.vcd
+ghdl -a --ieee=synopsys rf.vhd 
+ghdl -a --ieee=synopsys tb_rf.vhd 
+ghdl -e --ieee=synopsys tb_rf
+ghdl -r --ieee=synopsys tb_rf --vcd=rf.vcd
+gtkwave rf.vcd &
