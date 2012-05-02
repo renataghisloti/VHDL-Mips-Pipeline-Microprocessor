@@ -1,2 +1,11 @@
+### Renata Ghisloti Duarte de Souza ###
+
+This is my Implementation of a Mips Pipeline Processor in VHDL. 
+It has the five stages of a microprocessor: instruction fetch (IF), instruction decode (ID), execution
+(EX), memory access and write (MEM) e write back (WB).
+The code has a separeted file for each component in the processor.
+
+Note that it might not be a perfect implementation!
+
 The script should be executed in the current (project root) directory, due to path requirements.
 
